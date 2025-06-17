@@ -6,6 +6,8 @@ div {
   overflow: hidden;
   background-color: #f3f3f3;
   align-center;
+   border: 1.5px solid gray;
+  border-color: black;
   }
 a {
   display: block;
@@ -15,6 +17,9 @@ a {
   font-family:'Franklin Gothic Medium'; float: left;
   text-decoration: none;
   color:#5A5A5A;
+
+}
+navbar {
 }
 div a:hover {
 background-color: #90EE90;
