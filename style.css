@@ -5,10 +5,12 @@ div {
   padding: 0;
   overflow: hidden;
   background-color: #f3f3f3;
+  align-center;
   }
 a {
   display: block;
   padding: 1.5% 5%;
+  margin: 0;
   align-center;
   font-family:'Franklin Gothic Medium'; float: left;
   text-decoration: none;
@@ -19,4 +21,8 @@ background-color: #90EE90;
 }
 .active {
   background-color: #90EE90;
+}
+
+h1 {
+text-align: center;
 }
