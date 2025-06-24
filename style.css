@@ -8,19 +8,19 @@
   align-center;
    border: 1.5px solid gray;
   border-color: black;
+  display: flex;
+  justify-content: center;
   }
 a {
   display: block;
-  padding: 1.5% 5%;
+  padding: 1.5% 8%;
   margin: 0;
   align-center;
   font-family:'Franklin Gothic Medium'; float: left;
   text-decoration: none;
   color:#5A5A5A;
+}
 
-}
-navbar {
-}
 div a:hover {
 background-color: #D3D3D3;
 }
@@ -30,5 +30,7 @@ background-color: #D3D3D3;
 
 h1 {
 text-align: center;
-
+}
+body{
+background-color:#32c766;
 }
