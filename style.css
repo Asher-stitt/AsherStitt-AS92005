@@ -5,17 +5,17 @@
   padding: 0;
   overflow: hidden;
   background-color: #A9A9A9;
-  align-center;
-   border: 1.5px solid gray;
+  align-left;
+  border: 1.5px solid gray;
   border-color: black;
   display: flex;
   justify-content: center;
   }
+
 a {
   display: block;
-  padding: 1.5% 8%;
+  padding: 2.4% 8%;
   margin: 0;
-  align-center;
   font-family:'Franklin Gothic Medium'; float: left;
   text-decoration: none;
   color:#5A5A5A;
@@ -33,5 +33,10 @@ text-align: center;
 }
 body{
 background-color:#32c766;
+background-image: url("/Images/backround.jpg");
+}
 
+.first {
+width: 2.5%;
+max-height:
 }
