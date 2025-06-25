@@ -1,5 +1,5 @@
 
-.navbar {
+.navbar{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -11,7 +11,10 @@
   display: flex;
   justify-content: center;
   }
-
+.navbar-container{
+   background: transparent;
+  backdrop-filter: blur(10px);
+}
 a {
   display: block;
   padding: 2.4% 8%;
@@ -30,13 +33,23 @@ background-color: #D3D3D3;
 
 h1 {
 text-align: center;
+
 }
 body{
 background-color:#32c766;
 background-image: url("/Images/backround.jpg");
+background-size: 100%;
+margin: 0px;
+  font-family: 'Roboto Mono';font-size: 22px;
 }
 
 .first {
 width: 2.5%;
 max-height:
+}
+
+.logo {
+    width: 12%;
+    max-width: 100px; /* adjust as needed */
+    margin-right: 20px;
 }
