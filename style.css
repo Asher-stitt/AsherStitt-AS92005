@@ -4,7 +4,7 @@ div {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #f3f3f3;
+  background-color: #000000;
   }
 a {
   display: block;
@@ -15,8 +15,9 @@ a {
   color:#FFFFFF;
 }
 div a:hover {
-background-color: #111;
+background-color: #808080;
+
 }
 .active {
-  background-color: #04AA6D;
+  background-color: #808080;
 }
