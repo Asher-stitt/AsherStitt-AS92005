@@ -9,21 +9,21 @@
   background-color: rgba(34, 49, 34, 0.6);
   }
 
+a.nav div{
+text-align: center;
+}
 /* text in the navbar and the padding */
-a {
+a.nav {
   padding: 2.3% 4%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
   color: white;
   width: 20%;
-  align: center;
 }
 /* effects when mouse hovers over the navbar */
 div a:hover {
-background-color: #1c290c;
-backdrop-filter: blur(.5px);
-background: transparent;
-
+background-color: #2b371b;
+backdrop-filter: blur(0.5px);
 }
 
 /* first header */
@@ -60,4 +60,10 @@ margin: 0px;
 
 h3 {
 margin: 0px;
+}
+
+first{
+margin: 0% 4%;
+height: 100px;
+width: 0.1%;
 }
