@@ -14,7 +14,7 @@ text-align: center;
 }
 /* text in the navbar and the padding */
 a.nav {
-  padding: 2.3% 4%;
+  padding: 45px 0% 0px 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
   color: white;
@@ -58,6 +58,7 @@ margin: 0px;
     backdrop-filter: blur(3px);
 }
 
+/* makes the h3 header go straight on the image instead of having a gap */
 h3 {
 margin: 0px;
 }
@@ -65,14 +66,17 @@ margin: 0px;
 /* footer link to contact page */
 .footer {
   position: absolute;
-      left: 0;
+  left: 0;
   bottom: 0;
   width: 10%;
   float: right:
 }
 
-.content_flex{
-
-align-content: center;
-    }
+/* flex box which centers the contact form */
+.contact_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
 
