@@ -8,10 +8,11 @@
   background: transparent;
   background-color: rgba(34, 49, 34, 0.6);
   }
-
+/* aligns text in the navbar */
 a.nav div{
 text-align: center;
 }
+
 /* text in the navbar and the padding */
 a.nav {
   padding: 45px 0% 0px 0px;
@@ -65,6 +66,7 @@ h3 {
 margin: 0px;
 }
 
+/* content box for the contact page */
 .content-box-contact{
     max-width: 900px;
     margin: 45px auto;
@@ -75,12 +77,11 @@ margin: 0px;
 }
 /* footer link to contact page */
 .footer {
-  position: absolute;
-  left: 0;
+  position: fixed;
   bottom: 0;
-  width: 10%;
-  float: right:
+  right: 0;
 }
+
 
 /* flex box which centers the contact form */
 .contact_flex {
@@ -90,7 +91,9 @@ margin: 0px;
   padding: 20px;
 }
 
-.second{
-padding: 30px 0px;
+/*flexbox for second paragraph */
+.main-flex-box2{
+   display: flex;
+   gap: 20px;
+   padding: 20px 0px;
 }
-
