@@ -83,6 +83,7 @@ margin: 0px;
 }
 
 
+
 /* flex box which centers the contact form */
 .contact_flex {
   display: flex;
@@ -96,4 +97,31 @@ margin: 0px;
    display: flex;
    gap: 20px;
    padding: 20px 0px;
+}
+
+.content-box4 {
+    max-width: 1400px;
+    margin: 45px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(3px);
+}
+
+.iframe1 {
+ justify-content: center;
+display: flex;
+}
+
+/* stops the embedded graph from shrinking and sets its height*/
+.main-flex-box3 iframe {
+  flex-shrink: 0;
+  width: 580px;
+  height: 460px;
+}
+
+.main-flex-box3{
+   display: flex;
+   gap: 20px;
+   padding: 40px 0px;
 }
