@@ -80,8 +80,12 @@ margin: 0px;
   position: fixed;
   bottom: 0;
   right: 0;
+  max-width:10%;
 }
-
+/* Make sure the image doesn't fill the whole screen */
+.footer img {
+  width: 100%;
+}
 
 
 /* flex box which centers the contact form */
@@ -125,3 +129,18 @@ display: flex;
    gap: 20px;
    padding: 40px 0px;
 }
+
+/* detects whether the viewer is on a narrow screen and then changes the layout of my flexboxes for better readability */
+@media (max-width: 768px) {
+  .main-flex-box,
+  .main-flex-box2,
+  .main-flex-box3 {
+    flex-direction: column;
+    align-items: center;
+  }
+/* make images more readable on small screens */
+  .main-flex-box img,
+  .main-flex-box2 img,
+  .main-flex-box3 iframe {
+    width: 90%;
+  }
