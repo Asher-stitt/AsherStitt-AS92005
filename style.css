@@ -126,8 +126,7 @@ display: flex;
 
 .main-flex-box3{
    display: flex;
-   gap: 20px;
-   padding: 40px 0px;
+   padding: 40px 0px 0px 0px;
 }
 
 /* detects whether the viewer is on a narrow screen and then changes the layout of my flexboxes for better readability */
@@ -145,7 +144,3 @@ display: flex;
     width: 90%;
   }
 
-  .paragraph87{
-  display: flex;
-  justify-content: right;
-  }
