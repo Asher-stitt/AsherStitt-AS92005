@@ -128,7 +128,7 @@ display: flex;
    display: flex;
    padding: 40px 0px 0px 0px;
 }
-
+1
 /* detects whether the viewer is on a narrow screen and then changes the layout of my flexboxes for better readability */
 @media (max-width: 768px) {
   .main-flex-box,
