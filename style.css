@@ -133,14 +133,19 @@ display: flex;
 @media (max-width: 768px) {
   .main-flex-box,
   .main-flex-box2,
-  .main-flex-box3 {
+  .main-flex-box3,
+  .navbar       {
     flex-direction: column;
     align-items: center;
   }
 /* make images more readable on small screens */
   .main-flex-box img,
   .main-flex-box2 img,
-  .main-flex-box3 iframe {
+  .main-flex-box3 iframe,
+   .main-flex-box3 img
+   {
     width: 90%;
   }
 
+
+   }
