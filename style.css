@@ -121,7 +121,7 @@ display: flex;
 .main-flex-box3 iframe {
   flex-shrink: 0;
   width: 580px;
-  height: 460px;
+  height: 400px;
 }
 
 .main-flex-box3{
@@ -143,4 +143,9 @@ display: flex;
   .main-flex-box2 img,
   .main-flex-box3 iframe {
     width: 90%;
+  }
+
+  .paragraph87{
+  display: flex;
+  justify-content: right;
   }
