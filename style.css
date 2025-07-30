@@ -104,6 +104,7 @@ margin: 0px;
    padding: 20px 0px;
 }
 
+/*content box for my page 4 */
 .content-box4 {
     max-width: 1400px;
     margin: 45px auto;
@@ -113,6 +114,7 @@ margin: 0px;
     backdrop-filter: blur(3px);
 }
 
+/* centers a video on page 4 */
 .iframe1 {
  justify-content: center;
 display: flex;
@@ -124,7 +126,7 @@ display: flex;
   width: 580px;
   height: 400px;
 }
-
+/* flex box on page 4 */
 .main-flex-box3{
    display: flex;
    padding: 40px 0px 0px 0px;
@@ -150,4 +152,9 @@ display: flex;
   }
 
 
+   }
+
+   .page3header{
+   display: flex;
+   justify-content: center;
    }
