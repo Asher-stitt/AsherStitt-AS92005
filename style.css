@@ -8,21 +8,23 @@
   background: transparent;
   background-color: rgba(34, 49, 34, 0.6);
   }
+/* aligns text in the navbar */
+a.nav div{
+text-align: center;
+}
 
 /* text in the navbar and the padding */
-a {
-  padding: 2.3% 4%;
+a.nav {
+  padding: 45px 0% 0px 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-decoration: none;
   color: white;
   width: 20%;
-  align: center;
 }
 /* effects when mouse hovers over the navbar */
 div a:hover {
-background-color: #1c290c;
-backdrop-filter: blur(.5px);
-background: transparent;
+background-color: #2b371b;
+backdrop-filter: blur(0.5px);
 }
 
 /* first header */
@@ -30,14 +32,17 @@ h1 {
 text-align: center;
 
 }
+
 /* background of the website */
 body{
 background-color:#32c766;
 background-image: url("/Images/backround.jpg");
 background-size: 100%;
 margin: 0px;
-  font-family: 'Roboto Mono';font-size: 22px;
+font-family: 'Roboto Mono';font-size: 22px;
+background-attachment: fixed;
 }
+
 
 
 /* first paragraph in the central content box */
@@ -57,6 +62,99 @@ margin: 0px;
     backdrop-filter: blur(3px);
 }
 
+/* makes the h3 header go straight on the image instead of having a gap */
 h3 {
 margin: 0px;
 }
+
+/* content box for the contact page */
+.content-box-contact{
+    max-width: 900px;
+    margin: 45px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(3px);
+}
+/* footer link to contact page */
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  max-width:10%;
+}
+/* Make sure the image doesn't fill the whole screen */
+.footer img {
+  width: 100%;
+}
+
+
+/* flex box which centers the contact form */
+.contact_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/*flexbox for second paragraph */
+.main-flex-box2{
+   display: flex;
+   gap: 20px;
+   padding: 20px 0px;
+}
+
+/*content box for my page 4 */
+.content-box4 {
+    max-width: 1400px;
+    margin: 45px auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    padding: 20px;
+    backdrop-filter: blur(3px);
+}
+
+/* centers a video on page 4 */
+.iframe1 {
+ justify-content: center;
+display: flex;
+}
+
+/* stops the embedded graph from shrinking and sets its height*/
+.main-flex-box3 iframe {
+  flex-shrink: 0;
+  width: 580px;
+  height: 400px;
+}
+/* flex box on page 4 */
+.main-flex-box3{
+   display: flex;
+   padding: 40px 0px 0px 0px;
+      gap: 20px;
+}
+
+/* detects whether the viewer is on a narrow screen and then changes the layout of my flexboxes for better readability */
+@media (max-width: 768px) {
+  .main-flex-box,
+  .main-flex-box2,
+  .main-flex-box3,
+  .navbar       {
+    flex-direction: column;
+    align-items: center;
+  }
+/* make images more readable on small screens */
+  .main-flex-box img,
+  .main-flex-box2 img,
+  .main-flex-box3 iframe,
+   .main-flex-box3 img
+   {
+    width: 90%;
+  }
+
+
+   }
+
+   .page3header{
+   display: flex;
+   justify-content: center;
+   }
