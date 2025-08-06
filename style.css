@@ -36,7 +36,7 @@ text-align: center;
 /* background of the website */
 body{
 background-color:#32c766;
-background-image: url("/Images/backround.jpg");
+background-image: url("Images/backround.jpg");
 background-size: 100%;
 margin: 0px;
 font-family: 'Roboto Mono';font-size: 22px;
@@ -154,7 +154,9 @@ display: flex;
 
    }
 
+/* Centers the page 3 main header */
    .page3header{
    display: flex;
    justify-content: center;
    }
+
