@@ -161,3 +161,6 @@ display: flex;
    justify-content: center;
    }
 
+iframe {
+    border: none;
+}
